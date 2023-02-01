@@ -1,20 +1,26 @@
 import './App.css';
-import BlogPage from './components/BlogPage';
 import Header from './components/HeaderComponent/Header';
-import HomePage from './components/Pages/HomePage';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import Aboutme from './components/Aboutme';
+import Contact from './components/Contact';
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+
+  const location = useLocation();
+
   return (
-    <Router>
       <div className="App">
-        <Header />
-        <Routes>
-          <Route path ="/" element={<HomePage />} />
-          <Route path ="/blog" element={<BlogPage />} />
-        </Routes>
+        <AnimatePresence>
+          <Header />
+          <Routes location={location} key={location.pathname}>
+            <Route path ="/" element={<Home />} />
+            <Route path ="/blog" element={<Aboutme />} />
+            <Route path ="/contact" element={<Contact />} />
+          </Routes>
+        </AnimatePresence>
       </div>
-    </Router>
   );
 }
 

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
         <div className="logo">
-            <h3>Portfolio Tomoko Uehara</h3>
+            <h3>Tomoko</h3>
         </div>
         <nav>
             <ul>
@@ -13,10 +13,10 @@ const Header = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/blog">About me</Link>
                 </li>
                 <li>
-                    <Link to="www.linkedin.com/in/tomoko-uehara-helsinki">LinkedIn</Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
         </nav>
