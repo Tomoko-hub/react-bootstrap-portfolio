@@ -29,6 +29,12 @@
     padding: 0;
     color: white;
   }
+
+  header .logo h3:hover {
+    font-size: 30px;
+    color: #F64A8A;
+    /*color: #FFB6C1;*/
+  }
   
   nav ul {
     margin: 0;
@@ -49,7 +55,7 @@
   }
   
   nav ul li a:hover {
-    color: #48b4af;
+    color: #F64A8A;
   }
   
   .container {
