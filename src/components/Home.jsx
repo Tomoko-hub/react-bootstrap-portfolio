@@ -1,8 +1,8 @@
 import React from "react";
 import reactImage from "../images/react.png";
 import jsImage from "../images/js.png";
-import firebaseImage from "../images/firebase.jpg";
-import profileImage from "../images/TomokoUeharaKuva.jpg";
+import mongoImage from "../images/mongodb.png";
+import profileImage from "../images/portrait.jpeg";
 import { motion } from "framer-motion";
 import BlackBoxTransition from "../utils/BlackBoxTransition";
 
@@ -21,17 +21,15 @@ const HomePage = () => {
 
                 <img src={profileImage} className="profileImage" alt="profileImage" />
 
-                <p>
-                    Tomoko Ueharaです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-                    Tomoko Uehara。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-                </p>
+                <p>Hi! I am Tomoko Uehara. I am searching a position for entry level as front end developer. My strongest skills are using React, Express, Node.js and Mongo DB.</p>
+                <p>I am a person who wants to take challenges and learns from mistakes. I speak Japanese, Finnish and English.</p>
 
                 <section className="page-section" id="services">
                     <div className="service">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">PORTFOLIO</h2>
                         <h3 className="section-subheading text-muted mb-5">
-                        私が作った作品一覧です
+                        My Collections
                         </h3>
                     </div>
                     <div className="row text-center">
@@ -77,26 +75,26 @@ const HomePage = () => {
 
                 <section id="skill">
                     <div className="text-center">
-                    <h1 className="title">スキル</h1>
+                    <h1 className="title">SKILLS</h1>
                     <div className="row text-center">
                         <div className="col-md-4 services">
                         <img src={reactImage} alt="reactLogo" />
                         <h4>React</h4>
-                        <p>Reactがつかえます</p>
+                        <p>Experience : 2yrs</p>
                         </div>
                         <div className="col-md-4 services">
                         <img src={jsImage} alt="jsLogo" />
-                        <h4>HTML/CSS</h4>
-                        <p>HTML/CSSがつかえます</p>
+                        <h4>JavaScript/HTML/CSS</h4>
+                        <p>Experience : 3yrs</p>
                         </div>
                         <div className="col-md-4 services">
-                        <img src={firebaseImage} alt="firebaseLogo" />
-                        <h4>Firebase</h4>
-                        <p>Firebaseがつかえます</p>
+                        <img src={mongoImage} alt="mongoDBLogo" />
+                        <h4>Mongo DB</h4>
+                        <p>Experience : 1yr</p>
                         </div>
                     </div>
                     <button type="button" className="btn btn-primary">
-                        スキル一覧
+                        Another Skills
                     </button>
                     </div>
                 </section>
