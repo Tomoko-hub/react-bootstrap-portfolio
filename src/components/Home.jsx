@@ -38,7 +38,7 @@ const HomePage = () => {
                             <i className="fas fa-circle fa-stack-2x text-primary"></i>
                             <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 className="my-3">Shopping card with React Redux</h4>
+                        <h4 className="my-3">Shopping cart with React Redux</h4>
                         <p className="text-muted">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                             maxime quam architecto quo inventore harum ex magni, dicta
