@@ -22,7 +22,7 @@ const Contact = () => {
               aria-describedby="emailHelp"
             />
             <div id="emailHelp" className="form-text">
-              We'll never share your email with anyone else.
+              I'll never share your email with anyone else.
             </div>
           </div>
           <div className="mb-3">
@@ -55,17 +55,14 @@ const Contact = () => {
           </button>
         </form>
         <p className="mt-5">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-          reiciendis tenetur magni consectetur autem ipsum debitis, ratione iure
-          maiores eos quam nisi architecto quisquam ex et exercitationem cumque ad
-          obcaecati natus? Officiis illo inventore minima voluptatibus, mollitia
-          maiores, quia molestias accusamus, amet ipsum eaque iste at deleniti
-          error? Ad tempora vitae eaque id qui doloribus similique doloremque
-          provident minima ratione rem commodi totam aliquam exercitationem
-          aliquid soluta assumenda laborum, quasi perferendis debitis eum numquam.
-          Nam id eveniet aliquid beatae, voluptatem eius blanditiis sequi tenetur
-          quasi voluptate ea expedita ratione atque quo repellendus molestias,
-          amet, iusto excepturi voluptatibus aut adipisci? Incidunt.
+          こんにちは。
+          日本語はネイティブ、英語よりはフィンランド語の方が得意です。
+          人と話すのが好きで、リモートワークよりもオフィスに行って仕事をするのが好きだと気付きました。
+          転職しようと思ったきっかけは、個人事業主としてヘルシンキで旅行業をしていたときに、コロナ禍に見舞われた事。
+          これから会社をすこしずつ大きくして、新しく人も雇おうかと思っていたのですが、これからは働き方が変わるような気がして思い切りました。
+          元々、旅行アプリを作ってみる事に興味があったので、これを機に勉強しようと思ったのです。
+          こうやって書いていて気付きましたが、学生時代はジャーナリストになりたくて勉強していたので、書く事が好きです。
+          年齢のせいもあるのか、なかなか転職活動はうまくいきませんが、のんびりやっていきたいと思います。
         </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit nemo ea
